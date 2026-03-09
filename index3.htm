@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width \n 17. initial-scale=1.0"> -->
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        alert("Assalam o Alaikum")
+        alert("Welcome to our AR Shop")
+        let abc=prompt("Can I Take Your Order")
+        if(abc==="yes"){
+            console.log("Here is our menu card. Please Order your Favorite Car Country");
+            let Car=+prompt(
+                "Here is our menu card. Please Order your Favorite Car Country.\n 1.China \n 2.United States \n 3.Japan \n 4.India \n 5.Mexico \n 6.South Korea \n 7.Germany \n 8.Brazil \n 9.Spain \n 10.Thailand"
+            )
+            if(Car===1){
+                console.log("Choose your Favorite Car Model");let China=+prompt(
+                "Choose your Favorite Car Model \n 1.BYD \n 2.Changan \n 3.Geely \n 4.GAC \n 5.Chery \n 6.Great Wall \n 7.NIO \n 8.SAIC Motor \n 9.Li Auto " 
+                )
+                if(China===1){
+                    console.log("Choose your Favorite Car");let BYD=+prompt("Choose your Favorite Car \n 1.Atto 3 \n 2.Dolphin \n 3.Seal \n 4.Han \n 5.Tang \n 6.Seal U")
+                    if(BYD===1){
+                        let Atto=+prompt(
+                            "Choose your Favorite color \n  1.Ski White  \n 2. Surf Blue  \n 3. Boulder Grey  \n 4. Cosmos Black")
+                            if(Atto===1) {
+                                let Ski=+prompt("Enter Your Quantity")
+                                alert("congratulation you order is successful \n Your Amount is PKR"+89.9*Ski+"lacs")
+                            }
+                            else if (Atto===2) {
+                                let Surf=+prompt("Enter Your Quantity")
+                                alert("congratulation you order is successful")
+                            }
+                            else if (Atto===3) {
+                                let Boulder=+prompt("Enter Your Quantity")
+                                alert("congratulation you order is successful")
+                            }
+                            else if (Atto===4) {
+                                let Cosmos=+prompt("Enter Your Quantity")
+                                alert("congratulation you order is successful")
+                            }
+                            else{
+                                alert("Please Enter Your Number 1 to 4");
+                                let Atto=+prompt("Choose your Favorite color \n  1.Ski White  \n 2. Surf Blue  \n 3. Boulder Grey  \n 4. Cosmos Black")
+                            }
+                    }
+                    else if(BYD===2){
+                        let Atto=+prompt(
+                            "Choose your Favorite color \n 1.Coral Pink \n 2.Urban Grey \n 3.Ski White \n 4.Surfing Blue")
+                    }
+                    else if(BYD===3){
+                        alert("congratulation you order is successful")
+                    }
+                    else if(BYD===4){
+                        alert("congratulation you order is successful")
+                    }
+                    else if(BYD===5){
+                        alert("congratulation you order is successful")
+                    }
+                    else if(BYD===6){
+                        alert("congratulation you order is successful")
+                    }
+                    else{
+                        alert("Please Enter Your Number 1 to 6");
+                        let BYD=+prompt("Choose your Favorite Car \n 1.Atto 3 \n 2.Dolphin \n 3.Seal \n 4.Han \n 5.Tang \n 6.Seal U")
+                    }
+                }
+                else if(China===2){
+                    console.log("Choose your Favorite Car");let Changan=prompt("Choose your Favorite Car \n ")
+                    
+                }
+            }
+        }
+        
+    </script>
+    
+</body>
+</html>
